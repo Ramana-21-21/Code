@@ -5,8 +5,8 @@ dit={}
 for i in a:
    count=0;
    for j in lst:
-     if(j%i==0):
-        count+=1
+      if(j%i==0):
+         count+=1
    dit[i]=count
         
 print(dit)
